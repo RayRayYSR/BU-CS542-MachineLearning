@@ -1,0 +1,50 @@
+Shirui Ye
+CS542 
+HW1
+Problem 5 Rock_Paper_Scissors
+
+Report:
+RR PR SP RP PS SR RP PS SR RP PS SR
+RP PS SR RP PS SR RP PS SR RP PS SR
+RP PS SR RP PS SR RP PS SR RP PS SR
+RP PS SR RP PS SR RP PS SR RP PS SR
+RP PS SR RP PS SR RP PS SR RP PS SR
+RP PS SR RP PS SR RP PS SR RP PS SR
+RP PS SR RP PS SR RP RS SR RP PS SR
+RP PS SR RP PS SR RP PS SR RP PS SR
+RP PS SR RP PS SR
+
+First 102 games played by me: 1 tie 3 win 99 lost.
+Aparently, the computer easily learnt my pattern at round 4
+and took a bold move to predict my 5th round, then each time I 
+followed my pattern, the "confidence" of the computer became
+more, then it followed my pattern to beat me. I tried to 
+change my pattern once, the computer unsurpriseling lost, since
+it always followed my "fixed" pattern.
+
+After playing with the program online, I realize that the computer 
+can learn my play pattern, so I use the simplest theory to beat AI. 
+The amazing Random. (There is no requirement in the assignment which
+says I cannot use random or any requirement/restrictions about this
+assignment. Thus, I use whatever I like) If the computer would like 
+to learn my pattern. There is no pattern for it to learn. Let's leave
+the results to God. 
+1 represents Rock
+2 represents Paper
+3 represents Scissors
+
+RR PR SP RP PS SS PP SP SR RP PS RR
+RP PP SS RP PP RS PP PS RR PP SS RS
+RP PS PP PP RR SR RP RR SR PR PS SR
+RP SP SR PR PS RR RP SP RS RP PS RS
+SS SP PP RP SS SR PP PP RR PR SS SS
+PR SS SR SS PS RR RP PP SR RP PS SR
+PP PS RR RP SS SR RP RS PR SS PS RR
+SS PS SR PR PS SS RS PS SR RP PP SR
+RP RR SR RR PP SR
+
+Second 102 games by my program:  39 tie  36 win  27 lost.
+This time the result increases a lot since the random function in Python
+(Although random cannot literally be real random, for hundreds of tests,
+random is enough to handle and give random output) provides random result
+which can hardly be concluded in a pattern.
